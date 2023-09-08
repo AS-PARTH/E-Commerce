@@ -1,0 +1,39 @@
+.order-success-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+  }
+  
+  .order-success-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .order-success-content h1 {
+    color: #b657de;
+  }
+  
+  .order-success-content p {
+    margin: 10px 0;
+  }
+  
+  .account-link, .continue-shopping-link {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #8e44ad;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .continue-shopping-link {
+    background: #8e2de2;
+    border-bottom: 3px solid #6516aa;
+  }
+  
